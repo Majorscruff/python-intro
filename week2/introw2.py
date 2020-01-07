@@ -11,9 +11,9 @@ table_length_inches = feet_to_inches(table_dimensions_feet["length"])
 print(table_length_inches)
 
 #second part of the homework Below this line
+#*********************************************************************
 
 price =(20, 6, 9, 14, 5)
-tax_percent = (13)
 hst = (0.13)
 
 def get_total (price, tax_percent):
@@ -26,3 +26,6 @@ second_total = get_total(price[1], hst)
 
 print ("The first two totals are $" + str (first_total) + " and $" + str (second_total) + " respectively.")
 # The first two totals are $22.6 and $6.78 respectively.
+
+#Forking allowing you take a project as it currently is and then work in your own direction. Classic examples are BitCoin and BitCash
+#cloning, is when you made a copy of a project in GitHub to your local device to work from it. 
